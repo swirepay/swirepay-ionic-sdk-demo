@@ -1,0 +1,83 @@
+.signupPage {
+
+    ion-toolbar {
+
+        --border-style: none;
+        --border-color: transparent;
+        --padding-top: 1rem;
+        --padding-bottom: 1rem;
+        --padding-start: 1rem;
+        --padding-end: 1rem;
+    }
+    h6 {
+        margin-top: 0.2rem;
+        color: #000;
+        font-size: 14px;
+        background-color: #e0e0e0;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    h4 {
+        margin-top: 0.2rem;
+        color: #474747;
+        font-size: 14px;
+    }
+    span {
+        color: #292929;
+        font-weight: 600;
+    }
+    h3{
+        color: #292929;
+        font-weight: 600;
+    }
+    h2{
+        color: #292929;
+        font-weight: 600;
+        font-size: 26px;
+    }
+    h5 {
+        margin-top: 0.2rem;
+        color: #999999;
+    }
+}
+.card-text {
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.headingText {
+
+    h5 {
+        margin-top: 0.2rem;
+        color: #999999;
+    }
+    p {
+        color: #2B2C4D;
+        font-size: 20px;
+    }
+}
+
+.custom-link {
+
+  color: rgb(236, 149, 35);
+}
+
+.custom-back {
+
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.custom-button {
+
+  --border-radius: 5px !important;
+  --background: rgb(35, 115, 236);
+  --background-activated: rgb(38, 169, 192);
+  --background-focused: rgb(38, 48, 192);
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
